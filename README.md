@@ -48,7 +48,7 @@ Trees Categories Kept in 1995: Alive
 Using SQL, I joined the income, population and land size data with the clean 2015 tree census table. 
 Using CTEs, then I used those columns to create new ratios such as Humans per Block, Trees per Block and Human to Trees. 
 <br>
-![CTE Code](https://user-images.githubusercontent.com/105595931/208743192-c190b18b-b46f-40b0-a49d-1efc10985828.JPG)
+![CTE Code2](https://user-images.githubusercontent.com/105595931/208748105-ab525bc5-1c79-42b8-9c43-a1546eea1c39.JPG)
 
 ## Research Questions & Findings
 ### [Slide Deck](https://docs.google.com/presentation/d/1BTHPcIO9yIXSr6-tMOrIfpkWUPi4U1P9G56NS2iJShU/edit?usp=sharing)
