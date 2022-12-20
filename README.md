@@ -18,8 +18,7 @@ By exploring this data, we can determine locations where the tree population mus
 
 
 ### Income Data Source from Census 2020
-#### [Median Income by Zipcode](https://data.census.gov/table?t=Income+and+Poverty&g=0500000US36005$8600000,36047$8600000,36061$8600000,36081$8600000,36085$8600000&tid=ACSST5Y2020.S1901)
-#### [Median Income by Borough](https://www.census.gov/quickfacts/fact/table/queenscountynewyork,richmondcountynewyork,kingscountynewyork,newyorkcountynewyork,bronxcountynewyork/PST045221)
+#### [Median Income by Zipcode](https://data.census.gov/table?t=Income+and+Poverty&g=0500000US36005$8600000,36047$8600000,36061$8600000,36081$8600000,36085$8600000&tid=ACSST5Y2020.S1901),    [Median Income by Borough](https://www.census.gov/quickfacts/fact/table/queenscountynewyork,richmondcountynewyork,kingscountynewyork,newyorkcountynewyork,bronxcountynewyork/PST045221)
 
 ### Population Data Source from Census 2020
 #### [Census Population Data](https://data.census.gov/table?t=Population+Total&g=0500000US36005$8600000,36047$8600000,36061$8600000,36081$8600000,36085$8600000&tid=ACSDT5Y2020.B01003)
@@ -27,3 +26,17 @@ By exploring this data, we can determine locations where the tree population mus
 ### Land Area in Square Meter by Zipcode Data Source
 #### [NYC Zipcode Land Area](https://namecensus.com/zip-codes/new-york/city/new-york/)
 [City Block Size](https://www.reference.com/history-geography/many-acres-city-block-c2e3daa4355c15a2), according to Reference.com the average size of a Manhattan block is 660ft by 330ft, or 217800 Sqft, or 24200 Sqyd.
+
+## Data Cleaning
+In SQL for all tree datasets, I dropped any row with a dead trees, and selected columns with TreeID, Borough, Longitude, Latitude, Status, Zip_code and Year
+<br> Trees Categories Removed in 1995: Dead, Stump, Shaft, Planting Spaces       
+Trees Categories Kept in 1995: Excellent, Good, Poor
+<br> Trees Categories Removed in 2005: Empty, Pit, Stump, Shaft, Dead            
+Trees Categories Kept in 1995: Excellent, Good, Poor
+<br> Trees Categories Removed in 2015: Dead                                      
+Trees Categories Kept in 1995: Alive
+
+## Compiling Data
+Using SQL, I joined the income, population and land size data with the clean 2015 tree census table. 
+Using CTEs, then I used those columns to create new ratios such as Humans per Block, Trees per Block and Human to Trees. 
+
