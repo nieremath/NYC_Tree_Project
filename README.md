@@ -22,7 +22,7 @@ By exploring this data, we can determine locations where the tree population mus
 
 ### Tree Data Sources from NYC Open Data
 [Tree Census 2015](https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/pi5s-9p35),    [Tree Census 2005](https://data.cityofnewyork.us/Environment/2005-Street-Tree-Census/29bw-z7pj),    [Tree Census 1995](https://data.cityofnewyork.us/Environment/1995-Street-Tree-Census/kyad-zm4j)
-[Street Tree Planting Locations](https://www.nycgovparks.org/trees/street-tree-planting/locations)
+<br> [Street Tree Planting Locations](https://www.nycgovparks.org/trees/street-tree-planting/locations)
 
 
 ### Income Data Source from Census 2020
@@ -47,7 +47,7 @@ Trees Categories Kept in 1995: Alive
 ## Compiling Data
 Using SQL, I joined the income, population and land size data with the clean 2015 tree census table. 
 Using CTEs, then I used those columns to create new ratios such as Humans per Block, Trees per Block and Human to Trees. 
-
+<br>
 ![CTE Code](https://user-images.githubusercontent.com/105595931/208743192-c190b18b-b46f-40b0-a49d-1efc10985828.JPG)
 
 ## Research Questions & Findings
