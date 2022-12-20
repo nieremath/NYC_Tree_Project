@@ -1,4 +1,4 @@
-# NYC_Tree_Project2
+# NYC_Tree_Project
 
 ## "If you want to map inequality in New York, you can just count trees"
 
