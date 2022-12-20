@@ -56,7 +56,8 @@ Using CTEs, then I used those columns to create new ratios such as Humans per Bl
 #### 1. Can we map inequality by counting trees?
 Sort of. Low income is associated with higher human-to-tree ratio for all boroughs except Manhattan
 #### 2. What Locations need more street trees?
-Bronx, Brooklyn and Manhattan are the main borough who needs trees. See Locations on Map
-![Capture](https://user-images.githubusercontent.com/105595931/208744346-a4d23842-8cd9-423b-8887-a36cdae3df0f.JPG)
+Bronx, Brooklyn and Manhattan are the main borough who needs trees. 
+<br> See Locations on Map
+<br> ![Capture](https://user-images.githubusercontent.com/105595931/208744346-a4d23842-8cd9-423b-8887-a36cdae3df0f.JPG)
 #### 3. How can street tree equity improve?
 MillionTrees Project but with a focus on street trees!
