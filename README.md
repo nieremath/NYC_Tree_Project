@@ -22,6 +22,7 @@ By exploring this data, we can determine locations where the tree population mus
 
 ### Tree Data Sources from NYC Open Data
 ##### [Tree Census 2015](https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/pi5s-9p35),    [Tree Census 2005](https://data.cityofnewyork.us/Environment/2005-Street-Tree-Census/29bw-z7pj),    [Tree Census 1995](https://data.cityofnewyork.us/Environment/1995-Street-Tree-Census/kyad-zm4j)
+[Street Tree Planting Locations](https://www.nycgovparks.org/trees/street-tree-planting/locations)
 
 
 ### Income Data Source from Census 2020
