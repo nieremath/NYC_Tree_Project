@@ -11,6 +11,13 @@ This project reviews the studies posed by the NYTimes Article and StreetsBlog NY
 
 By exploring this data, we can determine locations where the tree population must increase to ensure tree equity in NYC.
 
+## Research Questions
+#### 1. Can we map inequality by counting trees?
+#### 2. What Locations need more street trees?
+#### 3. How can street tree equity improve?
+
+### [Slide Deck](https://docs.google.com/presentation/d/1BTHPcIO9yIXSr6-tMOrIfpkWUPi4U1P9G56NS2iJShU/edit?usp=sharing)
+
 ## Data Sources
 
 ### Tree Data Sources from NYC Open Data
@@ -42,3 +49,13 @@ Using CTEs, then I used those columns to create new ratios such as Humans per Bl
 
 ![CTE Code](https://user-images.githubusercontent.com/105595931/208743192-c190b18b-b46f-40b0-a49d-1efc10985828.JPG)
 
+## Research Questions & Findings
+### [Slide Deck](https://docs.google.com/presentation/d/1BTHPcIO9yIXSr6-tMOrIfpkWUPi4U1P9G56NS2iJShU/edit?usp=sharing)
+
+#### 1. Can we map inequality by counting trees?
+##### Sort of. Low income is associated with higher human-to-tree ratio for all boroughs except Manhattan
+#### 2. What Locations need more street trees?
+##### Bronx, Brooklyn and Manhattan are the main borough who needs trees. See Locations on Map
+![Capture](https://user-images.githubusercontent.com/105595931/208744346-a4d23842-8cd9-423b-8887-a36cdae3df0f.JPG)
+#### 3. How can street tree equity improve?
+##### MillionTrees Project but with a focus on street trees!
