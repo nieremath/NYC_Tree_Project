@@ -21,18 +21,18 @@ By exploring this data, we can determine locations where the tree population mus
 ## Data Sources
 
 ### Tree Data Sources from NYC Open Data
-##### [Tree Census 2015](https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/pi5s-9p35),    [Tree Census 2005](https://data.cityofnewyork.us/Environment/2005-Street-Tree-Census/29bw-z7pj),    [Tree Census 1995](https://data.cityofnewyork.us/Environment/1995-Street-Tree-Census/kyad-zm4j)
+[Tree Census 2015](https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/pi5s-9p35),    [Tree Census 2005](https://data.cityofnewyork.us/Environment/2005-Street-Tree-Census/29bw-z7pj),    [Tree Census 1995](https://data.cityofnewyork.us/Environment/1995-Street-Tree-Census/kyad-zm4j)
 [Street Tree Planting Locations](https://www.nycgovparks.org/trees/street-tree-planting/locations)
 
 
 ### Income Data Source from Census 2020
-#### [Median Income by Zipcode](https://data.census.gov/table?t=Income+and+Poverty&g=0500000US36005$8600000,36047$8600000,36061$8600000,36081$8600000,36085$8600000&tid=ACSST5Y2020.S1901),    [Median Income by Borough](https://www.census.gov/quickfacts/fact/table/queenscountynewyork,richmondcountynewyork,kingscountynewyork,newyorkcountynewyork,bronxcountynewyork/PST045221)
+[Median Income by Zipcode](https://data.census.gov/table?t=Income+and+Poverty&g=0500000US36005$8600000,36047$8600000,36061$8600000,36081$8600000,36085$8600000&tid=ACSST5Y2020.S1901),    [Median Income by Borough](https://www.census.gov/quickfacts/fact/table/queenscountynewyork,richmondcountynewyork,kingscountynewyork,newyorkcountynewyork,bronxcountynewyork/PST045221)
 
 ### Population Data Source from Census 2020
-#### [Census Population Data](https://data.census.gov/table?t=Population+Total&g=0500000US36005$8600000,36047$8600000,36061$8600000,36081$8600000,36085$8600000&tid=ACSDT5Y2020.B01003)
+[Census Population Data](https://data.census.gov/table?t=Population+Total&g=0500000US36005$8600000,36047$8600000,36061$8600000,36081$8600000,36085$8600000&tid=ACSDT5Y2020.B01003)
 
 ### Land Area in Square Meter by Zipcode Data Source
-#### [NYC Zipcode Land Area](https://namecensus.com/zip-codes/new-york/city/new-york/)
+[NYC Zipcode Land Area](https://namecensus.com/zip-codes/new-york/city/new-york/)
 [City Block Size](https://www.reference.com/history-geography/many-acres-city-block-c2e3daa4355c15a2), according to Reference.com the average size of a Manhattan block is 660ft by 330ft, or 217800 Sqft, or 24200 Sqyd.
 
 ## Data Cleaning
@@ -54,9 +54,9 @@ Using CTEs, then I used those columns to create new ratios such as Humans per Bl
 ### [Slide Deck](https://docs.google.com/presentation/d/1BTHPcIO9yIXSr6-tMOrIfpkWUPi4U1P9G56NS2iJShU/edit?usp=sharing)
 
 #### 1. Can we map inequality by counting trees?
-##### Sort of. Low income is associated with higher human-to-tree ratio for all boroughs except Manhattan
+Sort of. Low income is associated with higher human-to-tree ratio for all boroughs except Manhattan
 #### 2. What Locations need more street trees?
-##### Bronx, Brooklyn and Manhattan are the main borough who needs trees. See Locations on Map
+Bronx, Brooklyn and Manhattan are the main borough who needs trees. See Locations on Map
 ![Capture](https://user-images.githubusercontent.com/105595931/208744346-a4d23842-8cd9-423b-8887-a36cdae3df0f.JPG)
 #### 3. How can street tree equity improve?
-##### MillionTrees Project but with a focus on street trees!
+MillionTrees Project but with a focus on street trees!
