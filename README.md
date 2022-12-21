@@ -5,7 +5,8 @@
 ### By Melody Niere
 Capstone Project Idea
 
-Trees are a vital to sustaining life on Earth. In August 2021, articles discussed the importance of trees in NYC : Rich People Are Cool! New Map Shows More Money Means More Trees by Julianne Cuba, Aug 10 2021 and Why an East Harlem Street Is 31 Degrees Hotter Than Central Park West by John Leland, Aug 2021. The articles suggested that the number of trees in a neighborhood is correlated with the income of the neighborhood, with the tagline of the NYTimes article being "If you want to map inequality in New York, you can just count trees".
+Trees are a vital to sustaining life on Earth. In August 2021, articles discussed the importance of trees in NYC : *[Rich People Are Cool! New Map Shows More Money Means More Trees by Julianne Cuba, Aug 10 2021](https://nyc.streetsblog.org/2021/08/10/rich-people-are-cool-new-map-shows-more-money-means-more-trees/)* and *[Why an East Harlem Street Is 31 Degrees Hotter Than Central Park West by John Leland, Aug 2021](https://www.nytimes.com/2021/08/20/nyregion/climate-inequality-nyc.html)*. 
+The articles suggested that the number of trees in a neighborhood is correlated with the income of the neighborhood, with the tagline of the NYTimes article being *"If you want to map inequality in New York, you can just count trees".* 
 
 This project reviews the studies posed by the NYTimes Article and StreetsBlog NYC, comparing tree count and median income. 
 
